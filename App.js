@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View , Image} from 'react-native';
 
 export default class App extends React.Component {
   render() {
@@ -11,6 +11,9 @@ export default class App extends React.Component {
         <Text>Nama     = Marzandi Zahran Affandi Leta</Text>
         <Text>Kelas    = XI RPL 2</Text>
         <Text>No.Absen = 25</Text>
+		<Image style={{height: 210 , width:210}}
+	     source={require('./zandi.jpg')}/>
+		
       </View>
     );
   }
