@@ -1,10 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View , Image} from 'react-native';
+import Judul from './Components/Judul';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+      	<Judul/>
 		<Text>				         Tararam 25               </Text>
 		<Text>=======================================</Text>
 		<Text>=======================================</Text>
@@ -15,6 +17,7 @@ export default class App extends React.Component {
 	     source={require('./zandi.jpg')}/>
 		
       </View>
+
     );
   }
 }
